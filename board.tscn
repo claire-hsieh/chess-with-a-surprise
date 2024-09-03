@@ -1,0 +1,432 @@
+[gd_scene load_steps=14 format=3 uid="uid://cgck65h6pknyc"]
+
+[ext_resource type="PackedScene" uid="uid://b778vliatu7m3" path="res://square.tscn" id="1_8461u"]
+[ext_resource type="Texture2D" uid="uid://1sql4pmy32c8" path="res://sprites/BPawn.svg" id="2_0w3mx"]
+[ext_resource type="Texture2D" uid="uid://ca8t2shoassp2" path="res://sprites/BBishop.svg" id="3_f33cl"]
+[ext_resource type="Texture2D" uid="uid://b8e8353pyae4l" path="res://sprites/BKing.svg" id="4_n32ex"]
+[ext_resource type="Texture2D" uid="uid://bjneg3fh7mu2e" path="res://sprites/BKnight.svg" id="5_kcpka"]
+[ext_resource type="Texture2D" uid="uid://cla2mshxp0elx" path="res://sprites/BQueen.svg" id="6_q4gjp"]
+[ext_resource type="Texture2D" uid="uid://2an2oqh0ks1y" path="res://sprites/BRook.svg" id="7_kk8b8"]
+[ext_resource type="Texture2D" uid="uid://bal1cx2x7hk7l" path="res://sprites/WBishop.svg" id="8_mjeii"]
+[ext_resource type="Texture2D" uid="uid://bgeifkewhw83q" path="res://sprites/WKing.svg" id="9_1mgbu"]
+[ext_resource type="Texture2D" uid="uid://dnp45xyp0eesa" path="res://sprites/WKnight.svg" id="10_ch0aw"]
+[ext_resource type="Texture2D" uid="uid://dl5dp47xg34sb" path="res://sprites/WPawn.svg" id="11_70ah6"]
+[ext_resource type="Texture2D" uid="uid://cr1lku07l36wb" path="res://sprites/WQueen.svg" id="12_n4nyy"]
+[ext_resource type="Texture2D" uid="uid://qisaumos7b53" path="res://sprites/WRook.svg" id="13_erbh3"]
+
+[node name="ranks" type="VBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="rank1" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="a1" parent="rank1" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="b1" parent="rank1" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="c1" parent="rank1" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="d1" parent="rank1" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="e1" parent="rank1" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="f1" parent="rank1" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="g1" parent="rank1" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="h1" parent="rank1" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="rank2" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="a2" parent="rank2" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="b2" parent="rank2" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="c2" parent="rank2" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="d2" parent="rank2" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="e2" parent="rank2" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="f2" parent="rank2" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="g2" parent="rank2" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="h2" parent="rank2" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="rank3" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="a3" parent="rank3" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="b3" parent="rank3" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="c3" parent="rank3" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="d3" parent="rank3" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="e3" parent="rank3" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="f3" parent="rank3" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="g3" parent="rank3" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="h3" parent="rank3" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="rank4" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="a4" parent="rank4" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="b4" parent="rank4" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="c4" parent="rank4" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="d4" parent="rank4" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="e4" parent="rank4" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="f4" parent="rank4" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="g4" parent="rank4" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="h4" parent="rank4" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="rank5" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="a5" parent="rank5" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="b5" parent="rank5" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="c5" parent="rank5" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="d5" parent="rank5" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="e5" parent="rank5" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="f5" parent="rank5" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="g5" parent="rank5" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="h5" parent="rank5" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="rank6" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="a6" parent="rank6" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="b6" parent="rank6" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="c6" parent="rank6" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="d6" parent="rank6" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="e6" parent="rank6" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="f6" parent="rank6" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="g6" parent="rank6" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="h6" parent="rank6" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="rank7" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="a7" parent="rank7" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="b7" parent="rank7" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="c7" parent="rank7" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="d7" parent="rank7" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="e7" parent="rank7" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="f7" parent="rank7" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="g7" parent="rank7" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="h7" parent="rank7" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="rank8" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="a8" parent="rank8" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="b8" parent="rank8" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="c8" parent="rank8" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="d8" parent="rank8" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="e8" parent="rank8" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="f8" parent="rank8" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="g8" parent="rank8" instance=ExtResource("1_8461u")]
+layout_mode = 2
+
+[node name="h8" parent="rank8" instance=ExtResource("1_8461u")]
+layout_mode = 2
+color = Color(0.678431, 0.847059, 0.901961, 1)
+dark = false
+
+[node name="BPawn" type="Sprite2D" parent="."]
+position = Vector2(333, 73)
+texture = ExtResource("2_0w3mx")
+
+[node name="BPawn8" type="Sprite2D" parent="."]
+position = Vector2(388, 75)
+texture = ExtResource("2_0w3mx")
+
+[node name="BKnight2" type="Sprite2D" parent="."]
+position = Vector2(337, 25)
+texture = ExtResource("5_kcpka")
+
+[node name="BKing" type="Sprite2D" parent="."]
+position = Vector2(232, 20)
+texture = ExtResource("4_n32ex")
+
+[node name="BBishop2" type="Sprite2D" parent="."]
+position = Vector2(284, 25)
+texture = ExtResource("3_f33cl")
+
+[node name="BPawn2" type="Sprite2D" parent="."]
+position = Vector2(283, 73)
+texture = ExtResource("2_0w3mx")
+
+[node name="BPawn3" type="Sprite2D" parent="."]
+position = Vector2(230, 72)
+texture = ExtResource("2_0w3mx")
+
+[node name="BPawn4" type="Sprite2D" parent="."]
+position = Vector2(182, 73)
+texture = ExtResource("2_0w3mx")
+
+[node name="BPawn5" type="Sprite2D" parent="."]
+position = Vector2(130, 75)
+texture = ExtResource("2_0w3mx")
+
+[node name="BPawn6" type="Sprite2D" parent="."]
+position = Vector2(76, 75)
+texture = ExtResource("2_0w3mx")
+
+[node name="BPawn7" type="Sprite2D" parent="."]
+position = Vector2(23, 75)
+texture = ExtResource("2_0w3mx")
+
+[node name="BQueen" type="Sprite2D" parent="."]
+position = Vector2(180, 24)
+texture = ExtResource("6_q4gjp")
+
+[node name="BBishop" type="Sprite2D" parent="."]
+position = Vector2(130, 23)
+texture = ExtResource("3_f33cl")
+
+[node name="BKnight" type="Sprite2D" parent="."]
+position = Vector2(76, 23)
+texture = ExtResource("5_kcpka")
+
+[node name="BRook" type="Sprite2D" parent="."]
+position = Vector2(27, 22)
+texture = ExtResource("7_kk8b8")
+
+[node name="BRook2" type="Sprite2D" parent="."]
+position = Vector2(388, 22)
+texture = ExtResource("7_kk8b8")
+
+[node name="WBishop" type="Sprite2D" parent="."]
+position = Vector2(128, 386)
+texture = ExtResource("8_mjeii")
+
+[node name="WBishop2" type="Sprite2D" parent="."]
+position = Vector2(288, 387)
+texture = ExtResource("8_mjeii")
+
+[node name="WKing" type="Sprite2D" parent="."]
+position = Vector2(233, 386)
+texture = ExtResource("9_1mgbu")
+
+[node name="WKnight" type="Sprite2D" parent="."]
+position = Vector2(78, 386)
+texture = ExtResource("10_ch0aw")
+
+[node name="WKnight2" type="Sprite2D" parent="."]
+position = Vector2(335, 387)
+texture = ExtResource("10_ch0aw")
+
+[node name="WPawn" type="Sprite2D" parent="."]
+position = Vector2(26, 333)
+texture = ExtResource("11_70ah6")
+
+[node name="WPawn2" type="Sprite2D" parent="."]
+position = Vector2(77, 333)
+texture = ExtResource("11_70ah6")
+
+[node name="WPawn3" type="Sprite2D" parent="."]
+position = Vector2(128, 336)
+texture = ExtResource("11_70ah6")
+
+[node name="WPawn4" type="Sprite2D" parent="."]
+position = Vector2(180, 334)
+texture = ExtResource("11_70ah6")
+
+[node name="WPawn5" type="Sprite2D" parent="."]
+position = Vector2(231, 335)
+texture = ExtResource("11_70ah6")
+
+[node name="WPawn6" type="Sprite2D" parent="."]
+position = Vector2(285, 333)
+texture = ExtResource("11_70ah6")
+
+[node name="WPawn7" type="Sprite2D" parent="."]
+position = Vector2(338, 333)
+texture = ExtResource("11_70ah6")
+
+[node name="WPawn8" type="Sprite2D" parent="."]
+position = Vector2(386, 330)
+texture = ExtResource("11_70ah6")
+
+[node name="WQueen" type="Sprite2D" parent="."]
+position = Vector2(180, 389)
+texture = ExtResource("12_n4nyy")
+
+[node name="WRook" type="Sprite2D" parent="."]
+position = Vector2(24, 386)
+texture = ExtResource("13_erbh3")
+
+[node name="WRook2" type="Sprite2D" parent="."]
+position = Vector2(389, 386)
+texture = ExtResource("13_erbh3")
+
+[node name="Node2D" type="Node2D" parent="."]
